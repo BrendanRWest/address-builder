@@ -49,5 +49,7 @@ public class AddressBuilder {
 
         String addressString = address.toString();
         System.out.println(addressString);
+
+        scan.close();
     }
 }
